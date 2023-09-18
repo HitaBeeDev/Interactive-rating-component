@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4f5b6b;
+}
+
+.container,
+.thankYou__container {
+  width: 23rem;
+  height: 23rem;
+  background-color: #788998;
+  border-radius: 1.5rem;
+  margin: auto;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  box-shadow: 0 100px 80px #3d444d;
+}
+
+.icn__box {
+  width: 2rem;
+  height: 2rem;
+  background-color: #e3e8ea;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 0.8rem;
+}
+
+.texts {
+  margin-top: 1.5rem;
+  color: #ebfffc;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 1.3rem;
+  cursor: pointer;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #e3e8ea;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #788998;
+}
+
+.numbers:hover {
+  color: #f4f6f7;
+  background-color: #f07b3f;
+  transition: all 0.6s;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.submit__btn {
+  width: 18rem;
+  height: 2.4rem;
+  background: #f07b3f;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  color: #f4f6f7;
+  letter-spacing: 0.18rem;
+}
+
+.submit__btn:hover {
+  color: #788998;
+  background-color: #e3e8ea;
+  transition: all 0.6s;
+}
+
+.img__box {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.thankYou__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.8rem;
+}
+
+.selected {
+  color: #f07b3f;
+  background: #5c6d7e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 1.8rem;
+  font-size: 0.8rem;
+  border-radius: 4rem;
+  margin-top: 1rem;
+}
+
+.thankYou__msg {
+  margin-top: 0.9rem;
+}
+
+.thankYou__description {
+  font-size: 0.85rem;
+}
